@@ -1,4 +1,4 @@
-# QLineSec
+
 
 Proje Amacı
 Siber güvenlik dünyasındaki gelişmeleri (Exploitler, Yamalar, Haberler) RSS kaynaklarından toplayıp akıllıca sınıflandıran bir haber alma sistemi.
