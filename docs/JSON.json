@@ -1,0 +1,38 @@
+{
+  "project_metadata": {
+    "project_name": "SecOps-RSS-Crawler-Classifier",
+    "category": "Cyber Threat Intelligence (CTI) & Automation",
+    "author": "Mehmet Kerem Bıyık",
+    "student_id": "2420191046",
+    "version": "2.1.0",
+    "license": "MIT",
+    "last_updated": "2026-01-22"
+  },
+  "system_overview": {
+    "description": "An autonomous SecOps tool designed to aggregate, classify, and score real-time security vulnerabilities from multiple global RSS feeds.",
+    "core_objective": "Automating threat intelligence gathering to reduce manual workload in SOC environments.",
+    "methodology": [
+      "RSS Polling",
+      "NLP-Based Classification",
+      "Heuristic Risk Scoring",
+      "JSON Serialization"
+    ]
+  },
+  "features": [
+    "Multi-Source Data Aggregation (NVD, Exploit-DB, TheHackerNews)",
+    "Real-Time Vulnerability Monitoring (Live Dashboard)",
+    "Automatic Content Tagging (Web, Network, Crypto, System)",
+    "Dynamic Impact Scoring Algorithm (CVE & Keyword Weighting)",
+    "SIEM-Ready Data Export (JSON Format)"
+  ],
+  "technical_specifications": {
+    "language": "Python 3.10+",
+    "target_os": ["Windows 10/11", "Kali Linux", "Ubuntu"],
+    "dependencies": [
+      "feedparser (RSS Parsing)",
+      "beautifulsoup4 (HTML Cleaning)",
+      "rich (CLI Visualization)",
+      "json (Data Export)"
+    ]
+  }
+}
